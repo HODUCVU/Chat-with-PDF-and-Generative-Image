@@ -1,6 +1,18 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Chat with PDF and Generative Image
+![image](https://github.com/user-attachments/assets/5d12d6cc-1cd3-4603-9484-6fa8318f2b13)
+## Chat with PDF
+- Using `text-embedding-ada-002` model to convert pdf file to vertor and store it on pinecone.
+- Using `gpt-3.5-turbo` model to chat with user and analysis pdf file content.
+- Users can chat with the chatbot to learn more about the contents of the PDF file...
+![image](https://github.com/user-attachments/assets/eed58621-8b82-4116-8375-ac49d97f52d6)
+## Generative Image
+- Using `DALL-E 2` model from openai api to generative image.
+- User can create a list of image by prompt input.
+![image](https://github.com/user-attachments/assets/38667d00-ff90-44d9-85a1-7cf67d3474d6)
+
 
 ## Getting Started
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 First, run the development server:
 
