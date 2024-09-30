@@ -1,0 +1,50 @@
+{
+  "name": "chatpdf",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "export NODE_OPTIONS='--max-old-space-size=8192' && next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@clerk/nextjs": "^5.3.7",
+    "@neondatabase/serverless": "^0.9.4",
+    "@pinecone-database/doc-splitter": "^0.0.1",
+    "@pinecone-database/pinecone": "^3.0.2",
+    "@tanstack/react-query": "^5.53.1",
+    "ai": "^3.3.28",
+    "aws-sdk": "^2.1687.0",
+    "axios": "^1.7.6",
+    "dotenv": "^16.4.5",
+    "drizzle-kit": "^0.24.2",
+    "drizzle-orm": "^0.33.0",
+    "file-saver": "^2.0.5",
+    "langchain": "^0.2.18",
+    "lucide-react": "^0.436.0",
+    "marked": "^14.1.2",
+    "md5": "^2.3.0",
+    "next": "14.2.7",
+    "openai-edge": "^1.2.2",
+    "pdf-parse": "^1.1.1",
+    "pinecone-client": "^2.0.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-dropzone": "^14.2.3",
+    "react-hot-toast": "^2.4.1",
+    "react-icons": "^5.3.0"
+  },
+  "devDependencies": {
+    "@types/file-saver": "^2.0.7",
+    "@types/md5": "^2.3.5",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.7",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}
